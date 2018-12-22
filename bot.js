@@ -2,10 +2,10 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('guildMemberAdd', member => {
-const mohamed= member.guild.channels.get("521374016036929536");
+const mohamed= member.guild.channels.get("519652655438626817");
 if(!mohamed) return;
 if(mohamed) {
-setTimeout(() => mohamed.send(` Welcome To **Point.**`), 4000)        
+setTimeout(() => mohamed.send(`Welcome to **Sùgaaaaar.**`), 4000)        
 }
 });
 
